@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="javafx.test.MyComp">
+    <stylesheets>
+        <URL value="@mycomp.css" />
+    </stylesheets>
+    <children>
+
+        <Label fx:id="label" />
+        <Button fx:id="button" onAction="#onClick" text="Click here" />
+    </children>
+</VBox>
